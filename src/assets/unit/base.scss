@@ -1,0 +1,56 @@
+//@import "~element-ui/packages/theme-chalk/src/common/var";
+
+/* Color
+-------------------------- */
+$--color-primary: #24D3B6 !default;
+$--color-success: #67C23A !default;
+$--color-warning: #E6A23C !default;
+$--color-danger: #F56C6C !default;
+$--color-info: #909399 !default;
+$--color-white: #FFFFFF !default;
+$--color-primary-light-9: mix($--color-white, $--color-primary, 90%) !default;
+/* Font Color
+-------------------------- */
+$--color-text-primary: #303133 !default;
+$--color-text-regular: #606266 !default;
+$--color-text-secondary: #909399 !default;
+$--color-text-placeholder: #C0C4CC !default;
+/* Border
+-------------------------- */
+$--border-color-base: #DCDFE6 !default;
+$--border-color-light: #E4E7ED !default;
+$--border-color-lighter: #EBEEF5 !default;
+$--border-color-extra-light: #F2F6FC !default;
+/* Table
+-------------------------- */
+$--table-row-hover-background-color: $--color-primary-light-9 !default;
+$--table-current-row-background-color: $--color-primary-light-9 !default;
+/* Button
+-------------------------- */
+$--button-medium-padding-vertical: 8px !default;
+$--button-medium-padding-horizontal: 16px !default;
+/* input
+-------------------------- */
+$--input-medium-height: 32px !default;
+/* Radio
+-------------------------- */
+$--radio-bordered-medium-padding: 10px 20px 0 10px !default;
+$--radio-bordered-medium-input-height: 14px !default;
+$--radio-bordered-medium-input-width: 14px !default;
+$--radio-bordered-medium-height: 36px !default;
+/* checkbox
+-------------------------- */
+$--checkbox-bordered-medium-padding: 7px 20px 7px 10px !default;
+$--checkbox-bordered-medium-input-height: 14px !default;
+$--checkbox-bordered-medium-input-width: 14px !default;
+$--checkbox-bordered-medium-height: 36px !default;
+
+/* 自定义
+-------------------------- */
+$background-color-main: #101326;
+
+
+
+
+
+
