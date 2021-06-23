@@ -36,6 +36,10 @@ export default {
         {
           key: 'elementui',
           name: 'elementui'
+        },
+        {
+          key: 'navigation',
+          name: '菜单导航'
         }
       ]
     }

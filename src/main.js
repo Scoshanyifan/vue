@@ -15,6 +15,10 @@ import './assets/element-ui.scss';
 
 Vue.config.productionTip = false
 
+// echarts
+import echarts from 'echarts'
+Vue.prototype.$echarts = echarts
+
 // 作为全局组件使用
 Vue.component('todo-list', TodoList)
 Vue.component('todo-item', TodoItem)

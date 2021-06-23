@@ -39,7 +39,35 @@ const routes = [
   {
     path: '/elementui',
     name: 'elementui',
-    component: () => import('../views/elementui')
+    component: () => import('../views/elementui/deviceAnalyseItem.vue')
+  },
+  {
+    path: '/navigation',
+    name: 'navigation',
+    component: () => import('../views/navigation'),
+    children: [
+      {
+        path: 'databoard',
+        component: () => import('../views/dashboard')
+      },
+      {
+        path: 'datacenter',
+        children: [
+          {
+            path: 'overview',
+            component: () => import('../views/navigation/overview.vue')
+          },
+          {
+            path: 'device',
+            component: () => import('../views/navigation/device.vue')
+          }
+        ]
+      },
+      {
+        path: 'business',
+        component: () => import('../views/navigation/business.vue')
+      }
+    ]
   }
 ]
 

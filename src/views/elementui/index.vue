@@ -18,11 +18,14 @@
       </el-transfer>
     </div>
     <el-button type="primary" @click="handleSave">保存</el-button>
+
   </div>
 </template>
 <script>
 
 export default {
+  components: {
+  },
   created() {
     this.data = this.getAttrData()
     this.value = [1, 3, 4]
